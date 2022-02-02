@@ -25,7 +25,7 @@ main{
     flex-wrap: wrap;
     align-content: flex-start;
     justify-content: space-between;
-    overflow: scroll;
+    overflow: auto;
 }
 
 footer{
@@ -65,29 +65,30 @@ footer{
     align-items: flex-end;
     justify-content: flex-start;
     margin-bottom: 15px;
+    position: relative;
     
 }
 
 .user-container i{
     
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .name-box{
     background-color: rgb(133, 132, 132);
     opacity: 0.5;
     height: 25px;
-    width: 110px;
+    width: 120px;
     
 }
 
 .user-container h4{
     color: white;
-    font-size: 1.5;
+    font-size: 1.4;
     padding: .2em;
 }
 
 #name-tag{
-    z-index: 1;
+    z-index: 2;
     position: absolute;
 }
 
@@ -97,7 +98,8 @@ footer{
     margin: 0 15px;
 }
 .icon{
-    font-size: 2em;
+    font-size: 1.8em;
+    margin-bottom: 6px;
 }
 
 .comand{
@@ -124,4 +126,8 @@ footer{
 
 .leave-meating h4{
     color: red;
+}
+
+#share{
+    color: rgb(142, 191, 68);
 }
