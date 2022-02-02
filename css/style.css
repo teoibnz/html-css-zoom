@@ -26,12 +26,14 @@ main{
     align-content: flex-start;
     justify-content: space-between;
     overflow: auto;
+    flex-shrink: 3;
 }
 
 footer{
     height: 10vh;
     background-color: rgb(29, 29, 29);
     justify-content: space-between;
+    min-width: 1160px;
 }
 
 .head-icon > *{
@@ -116,6 +118,7 @@ footer{
 
 .ft{
     align-items: center;
+    flex-shrink: 2;
 }
 
 .leave-meating{
@@ -126,6 +129,10 @@ footer{
 
 .leave-meating h4{
     color: red;
+}
+
+.central{
+    flex-shrink: 4;
 }
 
 #share{
