@@ -49,3 +49,36 @@ footer{
 .fas{
     color: white;
 }
+
+.user-container{
+    width: 300px;
+    height: 200px;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.user-container i{
+    
+    font-size: 1.5em;
+}
+.name-box{
+    background-color: rgb(133, 132, 132);
+    opacity: 0.5;
+    height: 25px;
+    width: 110px;
+    
+}
+
+.user-container h4{
+    color: white;
+    font-size: 1.5;
+    padding: .2em;
+}
+
+#name-tag{
+    z-index: 1;
+    position: absolute;
+}
